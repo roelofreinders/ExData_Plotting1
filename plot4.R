@@ -32,7 +32,6 @@ plot4 <- function() {
 		   legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 	
 	## Plot graph 4
-	## Plot graph 1
 	plot(data$Date, data$Global_reactive_power, type="n", main="", xlab="datetime", 
 		 ylab="Global Reactive Power")
 	lines(data$Date, data$Global_reactive_power)
